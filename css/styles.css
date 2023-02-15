@@ -1,0 +1,34 @@
+/* <!-- цвет синий главный #404BBF --> */
+/* цвет черный главный #2E2F42 */
+
+body{
+    color: #434455;
+}
+.link {
+    color: #2E2F42;
+}
+.link:hover,
+.link:focus {
+    color:  #4D5AE5;
+}
+li {
+    list-style-type: none;
+}
+.adres:hover,
+.adres:focus{
+    color: #4D5AE5;
+}
+.adres{
+    color: #434455;
+}
+span{
+    color: #2E2F42;
+}
+.logo{
+    color: #404BBF;
+}
+
+.buttom:focus{
+    color: #4D5AE5;
+    cursor: pointer;
+}
