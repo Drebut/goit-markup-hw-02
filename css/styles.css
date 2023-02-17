@@ -1,16 +1,15 @@
 :root {
-    --Primary-Brand: #4D5AE5;
-    --Pressed-state: #404BBF;
-    --Dark: #2E2F42;
+    --primary-Brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
     --cloud: #F4F4FD;
-    --Accent: #E7E9FC;
+    --accent: #E7E9FC;
     --color-text: #434455;
     --background-white: #FFFFFF;
 
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: "Roboto", sans-serif;
     color: var(--color-text);
     background-color: var(--background-white);
@@ -29,7 +28,7 @@ body {
 
 .header-logo {
     text-transform: uppercase;
-    color: var(--Primary-Brand);
+    color: var(--primary-Brand);
     font-family: 'Raleway', sans-serif;
     ;
     font-size: 18px;
@@ -37,16 +36,17 @@ body {
 }
 
 .header-span {
-    color: var(--Dark);
+    color: var(--dark);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--Pressed-state);
+    color: var(--pressed-state);
 }
 
 .header-link {
-    color: var(--Dark);
+    font-weight: 500;
+    color: var(--dark);
     font-size: 16px;
     line-height: 1.5;
 }
@@ -63,7 +63,7 @@ body {
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--Pressed-state);
+    color: var(--pressed-state);
 }
 
 /* hero */
@@ -78,11 +78,12 @@ body {
 }
 
 .hero-btm {
+    font-family: 'Roboto';
     cursor: pointer;
     font-size: 16px;
     line-height: 1.5;
     color: var(--background-white);
-    background-color: var(--Primary-Brand);
+    background-color: var(--primary-Brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -90,22 +91,35 @@ body {
 
 .hero-btm:hover,
 .hero-btm:focus {
-    background-color: var(--Pressed-state);
+    background-color: var(--pressed-state);
     color: var(--background-white);
 }
 
 /* контэнт 👽 */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;   
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .filtr-btm {
     font-family: 'Roboto';
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--Primary-Brand);
-    background-color: var(--Accent);
+    color: var(--primary-Brand);
+    background-color: var(--cloud);
     cursor: pointer;
     border: 1px solid;
     border-radius: 4px;
@@ -116,22 +130,24 @@ body {
 
 .filtr-btm:hover,
 .filtr-btm:focus {
-    background-color: var(--Pressed-state);
+    background-color: var(--pressed-state);
     color: var(--background-white)
 }
 
 
 .features-hover {
-    color: var(--Dark);
-
+    font-family: 'Roboto';
+    color: var(--dark);
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
 }
 
 .features-meta {
-
-
+    font-family: 'Roboto';
+   color: var(--color-text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -139,12 +155,12 @@ body {
 
 /* подвал */
 .footer {
-    background-color: var(--Dark);
+    background-color: var(--dark);
 }
 
 .footer-logo {
     text-transform: uppercase;
-    color: var(--Primary-Brand);
+    color: var(--primary-Brand);
     font-family: 'Raleway', sans-serif;
     ;
 
@@ -163,16 +179,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--Accent);
+    color: var(--accent);
 }
 
 .container-hover {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--Dark);
+    color: var(--dark);
 }
 
 .team {
@@ -181,21 +198,23 @@ body {
 }
 
 .team-hover {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.07;
-    color: var(--Dark);
+    color: var(--dark);
 }
 
 .team-item {
     background: var(--background-white);
 }
 
-.team-hover {
-
+.team-subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--Dark);
+    color: var(--dark);
+    
 }
 
 .team-text {
