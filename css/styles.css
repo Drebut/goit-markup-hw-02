@@ -1,8 +1,8 @@
 body {
     font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    background-color: var(--background-white);
 }
 
 
@@ -11,15 +11,21 @@ body {
     --Pressed-state: #404BBF;
     --Dark: #2E2F42;
     --cloud: #F4F4FD;
+    --Accent: #E7E9FC;
+    --color-text: #434455;
+    --background-white: #FFFFFF;
 
 }
-.list{
+
+.list {
     list-style: none;
 }
-.link{
+
+.link {
     text-decoration: none;
 }
 
+/* хедер */
 
 .header {}
 
@@ -29,10 +35,8 @@ body {
     text-transform: uppercase;
     color: var(--Primary-Brand);
     font-family: 'Raleway';
-
-    font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
 .header-span {
@@ -41,7 +45,9 @@ body {
 
 .header-list {}
 
-.header-item {}
+.header-item {
+    
+}
 
 .header-link:hover,
 .header-link:focus {
@@ -50,9 +56,8 @@ body {
 
 .header-link {
     color: var(--Dark);
-    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .address {}
@@ -62,81 +67,155 @@ body {
 .address-item {}
 
 .address-link {
-    color: #434455;
-    font-weight: 400;
+    color: var(--color-text);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1,5;
+    letter-spacing: 0.02em; 
+    cursor: default;
 }
 
 .address-link:hover,
 .address-link:focus {
     color: var(--Pressed-state);
 }
-/* контэнт */
-.main {
+/* hero */
+.hero {
+    background-color: #2E2F42;
 }
-.filtr {
+.hero-hover{
+font-size: 56px;
+line-height: 1.1;
+color: var(--background-white);
 }
-.filtr-list {
+.hero-btm{
+cursor: pointer;
+font-size: 16px;
+line-height: 1.5;
+color: var(--background-white);
+background-color: var(--Primary-Brand);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
 }
+.hero-btm:hover,
+.hero-btm:focus{
+    background-color: var(--Pressed-state);
+    color: var(--background-white);
+}
+
+/* контэнт 👽 */
+.main {}
+
+.filtr {}
+
+.filtr-list {}
+
 .filtr-btm {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--Primary-Brand);
-    background-color: #E7E9FC;
+    background-color: var(--Accent);
     cursor: pointer;
     border: 1px solid;
     border-radius: 4px;
-   
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
 
 }
+
 .filtr-btm:hover,
 .filtr-btm:focus {
-    background-color: #404BBF;
-    color:#FFFFFF
+    background-color: var(--Pressed-state);
+    color: var(--background-white)
 }
-.features-hover{
-    font-style: normal;
-    font-weight: 500;
+
+
+.features-hover {  
+    color: var(--Dark);
+    
     font-size: 20px;
-    line-height: 24px;  
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    }
-.features-meta{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-}    
+}
+
+.features-meta {
+
+   
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 /* подвал */
 .footer {
     background-color: var(--Dark);
 }
+
 .footer-logo {
     text-transform: uppercase;
     color: var(--Primary-Brand);
     font-family: 'Raleway';
 
-    font-weight: 800;
+  
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
+
 .footer-span {
     color: var(--cloud);
 }
+
 .footer-meta {
-font-style: normal;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--Accent);
+}
+.container {
+}
+.container-hover {
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--Dark);
+}
+.container-list {
+}
+.container-item {
+}
+.team{
+    background-color: var(--cloud);
+
+}
+.team-hover {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+color: var(--Dark);
+}
+.team-list {
+    
+}
+.team-item {
+    background: var(--background-white);
+    
+}
+.team-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--Dark);
+}
+.team-text {
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-color: #E7E9FC;
+line-height: 1.5;
 }
