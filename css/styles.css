@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
 }
 .header {
   background-color: #ffffff;
@@ -11,10 +11,9 @@ body {
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
   text-decoration: none;
@@ -22,10 +21,9 @@ body {
 .header-logo-span {
   font-family: Raleway;
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -47,6 +45,7 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 .address-list {
 }
@@ -55,7 +54,7 @@ body {
 .header-btn {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
@@ -63,7 +62,7 @@ body {
 .header-telefon {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
 }
@@ -77,19 +76,17 @@ body {
 }
 .headline-hero {
   font-weight: 700;
-  font-style: Bold;
   font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 .hero-button {
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   vertical-align: middle;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -110,16 +107,15 @@ body {
 }
 .content-subtitle {
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .content-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 /*aur team*/
 .team-section {
@@ -127,10 +123,9 @@ body {
 }
 .team-headline {
   font-weight: 700;
-  font-style: Bold;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -142,17 +137,16 @@ body {
 
 .team-subline {
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 /*aur team*/
@@ -160,10 +154,9 @@ body {
 }
 .portfolio-headline {
   font-weight: 700;
-  font-style: Bold;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
@@ -173,16 +166,15 @@ body {
 }
 .portfolio-subline {
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 /*futer*/
 .footer-section {
@@ -190,26 +182,24 @@ body {
 }
 .footer-logo {
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
   text-decoration: none;
 }
 .footer-span {
   font-weight: 700;
-  font-style: Bold;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
